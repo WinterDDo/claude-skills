@@ -20,3 +20,10 @@
   MANDATORY commands. Kept only: active-skill state tracking + universal reflection nudge.
   Key insight: keyword routing substitutes for judgment rather than enabling it. Claude
   with CLAUDE.md Tier 2 table + four principles can route itself.
+
+2026-04-24 | Weekly retro | dev pipeline tracking |
+  First complete dev quality gate sequence (writing-plans → gstack-plan-eng-review → executing-plans)
+  observed since CLAUDE.md rebuild (2026-04-20). Positive signal that eng-review is now being used.
+  TDD and code-review still not logged; persistence of full pipeline uncertain — watch over next 2 weeks.
+  Business skills (contract, market, negotiation) still zero in Code logs; Cowork/Chat blind spot
+  remains unresolved — no mechanism to verify if they fire in non-Code sessions.

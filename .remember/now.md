@@ -17,6 +17,6 @@ Win = Head of BD Americas, MIXUE Group. Builds products for his team + runs fran
 - UCLA Anderson EMBA
 
 ## What to watch
-- Dev quality gates (eng-review, TDD, code-review) frequently skipped — enforce proactively
+- Dev quality gates: eng-review fired (2026-04-20) for first time since rebuild — full pipeline (plan→eng-review→execute) confirmed once. TDD and code-review still not observed; watch for consistency
 - Make task type + Skill visible before every response ("Task type: X → Applying: Y")
-- Business skills underused in Code — check task type before every response
+- Business skills (contract, market, negotiation) zero in Code logs — by design, but Chat/Cowork blind spot unresolved; can't confirm if they're firing there
