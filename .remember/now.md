@@ -31,4 +31,9 @@ Win = Head of BD Americas, MIXUE Group. Builds products for his team + runs fran
 - skill-patterns.md distillation: are observations accumulating during use? Weekly retro should check whether any 3-pattern clusters are ready to promote to principles.
 - Chat/Cowork blind spot: business skills (contract, market, negotiation) still zero in Code logs — by design, but can't confirm they're firing in other platforms. This is a data gap, not necessarily a problem.
 - Push-back calibration: added "correctness over compliance" to Principle 1. Watch whether this actually changes behavior — or whether it needs reinforcement through the Socratic loop.
-- Project-phase awareness (2026-05-10): Win 的 Code 活动是爆发型的，不是均匀分布。2026-05-02 收尾一个分支后近两周接近静默。这不是系统失效，是 dormant phase。真正的验证点是：当下一次 dev burst 开始时，plan → eng-review → build → verify → code-review 是否自然衔接，不是周度调用量。
+- 监控指标修正（2026-05-11）：`skill-usage.log` ≠ 协作密度。它只测"显式 Skill tool 调用"。
+  Tier 1 不 invoke，Tier 2 也常以"按精神应用"形式工作。看活跃度要看 session 文件（大小、
+  subagent 数、跨项目分布）。这次教训：2026-05-08 retro 误把"log 0 调用"读成"两周静默"，
+  实际近 7 天有 131MB QUILL session + 8 subagent + 5 个并行项目 session 的高强度工作。
+  纠正机制：retro SKILL.md 已加入 session 活跃度采集步骤。下次 retro 验证：新流程是否
+  避免类似误读。

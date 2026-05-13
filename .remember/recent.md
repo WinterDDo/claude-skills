@@ -28,10 +28,16 @@
   Business skills (contract, market, negotiation) still zero in Code logs; Cowork/Chat blind spot
   remains unresolved — no mechanism to verify if they fire in non-Code sessions.
 
-2026-05-08 | Weekly retro | gstack-retro |
-  Code 端连续两周接近静默（本周 2 次，上周 0 次）。无法验证 2026-04-24 retro 预测的
-  "TDD + code-review 持久性"——Win 这两周根本没在 Code 做 dev work。最后一次活动是
-  2026-05-02 finishing-a-development-branch（收尾一个分支），之后转向 Chat/Cowork 或非
-  Code 工作。根因不是 Skill 系统失效，而是 Win 的 Code 活动是"项目阶段驱动"的爆发型节奏。
-  Insight: weekly retro 在低谷期会把"无活动"误读为"Skill 没触发"。改进方向：retro 在
-  评估覆盖率前先问"Win 这周在哪个项目阶段"，把项目阶段作为前置变量而非把调用量当主指标。
+2026-05-08 | Weekly retro | gstack-retro | ❌ 报告作废
+  这份 retro 基于错误指标，得出"两周近 0 调用"。Win 立刻反驳"不可能"。
+
+2026-05-11 | Retro 修正 + 根因发现 | distrust-the-surface |
+  前一次 retro 的根因不是"Win 没做 dev work"，而是**监控指标定义错误**。
+  `skill-usage.log` 只记录"显式调用 Skill 工具"。Tier 1 思维方式不 invoke。Tier 2 也常以
+  "按精神应用"形式进入工作，不显式调用。log 是窄信号，不是协作密度的代理。
+  实际数据：近 7 天 Code 端有 1 个 131MB QUILL session + 8 subagent + 5 个 Skills for Claude
+  session — 高强度协作期，不是 dormant。
+  教训：用户强烈反驳数据时，先怀疑指标定义，再怀疑用户记忆。这次如果不是 Win 立刻反驳，
+  错误的"两周静默"叙事会被我重复写进 retro 第 5 次。
+  修复：scheduled-tasks/weekly-skill-retro/SKILL.md 重写数据采集步骤，引入 session 活跃度
+  作为主指标，log 降为子信号；两者冲突时以 session 为准。
