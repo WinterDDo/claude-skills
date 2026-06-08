@@ -1,6 +1,6 @@
 ---
 name: cross-border-compliance-matrix
-description: "Check regulatory requirements for market entry, entity setup, and franchise operations across the Americas. Triggers: 'what do I need to register', 'compliance requirements', 'legal entity setup', 'regulatory steps', '合规要求', '注册流程', '法律架构', '设立公司', '需要什么手续'. NOT for: contract review (use contract-risk-extraction) or financial projections (use franchise-unit-economics)."
+description: "Check regulatory requirements for market entry, entity setup, and franchise operations across the Americas. Triggers: 'what do I need to register', 'compliance requirements', 'legal entity setup', 'regulatory steps', '合规要求', '注册流程', '法律架构', '设立公司', '需要什么手续'. NOT for: contract review (use contract-risk-extraction)."
 ---
 
 # Cross-Border Compliance Matrix

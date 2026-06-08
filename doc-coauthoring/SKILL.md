@@ -1,6 +1,6 @@
 ---
 name: doc-coauthoring
-description: "Structured collaborative documentation workflow with iterative review stages. Triggers: 'write a doc together', 'co-author this', 'help me write this spec', 'draft a decision doc', '一起写文档', '协作写', '帮我写技术文档'. For long-form docs needing multiple review rounds. NOT for: quick single-pass docs (just write directly) or internal memos (use internal-comms)."
+description: "Structured collaborative documentation workflow with iterative review stages. Triggers: 'write a doc together', 'co-author this', 'help me write this spec', 'draft a decision doc', '一起写文档', '协作写', '帮我写技术文档'. For long-form docs needing multiple review rounds. NOT for: quick single-pass docs (just write directly)."
 ---
 
 # Doc Co-Authoring Workflow

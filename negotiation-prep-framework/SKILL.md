@@ -1,6 +1,6 @@
 ---
 name: negotiation-prep-framework
-description: "Map interests, BATNAs, red lines, and cultural tactics before any negotiation. Triggers: 'prepare for negotiation', 'negotiation strategy', 'how to negotiate', 'deal terms', '谈判准备', '怎么谈', '谈判策略', '砍价', '谈条件'. Also for post-negotiation debriefs. NOT for: contract review (use contract-risk-extraction) or cultural communication advice (use cross-cultural-business-comm)."
+description: "Map interests, BATNAs, red lines, and cultural tactics before any negotiation. Triggers: 'prepare for negotiation', 'negotiation strategy', 'how to negotiate', 'deal terms', '谈判准备', '怎么谈', '谈判策略', '砍价', '谈条件'. Also for post-negotiation debriefs. NOT for: contract review (use contract-risk-extraction)."
 ---
 
 # Negotiation Preparation Framework
