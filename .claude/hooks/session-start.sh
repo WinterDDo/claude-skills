@@ -1,5 +1,5 @@
 #!/bin/bash
-# SessionStart hook for the WinterDDo/claude-skills repo.
+# SessionStart hook for the WinterDDo/win-skills repo.
 # Installs every skill in the repo (directories containing SKILL.md) into
 # ~/.claude/skills/ so they auto-load in this session.
 #

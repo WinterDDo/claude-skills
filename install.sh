@@ -1,10 +1,10 @@
 #!/bin/bash
 # Claude Skills installer
-# Usage: curl -fsSL https://raw.githubusercontent.com/WinterDDo/claude-skills/main/install.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/WinterDDo/win-skills/main/install.sh | bash
 
 set -e
 
-REPO="https://github.com/WinterDDo/claude-skills"
+REPO="https://github.com/WinterDDo/win-skills"
 SKILLS_DIR="$HOME/.claude/skills"
 TMP_DIR="/tmp/claude-skills-install-$$"
 
