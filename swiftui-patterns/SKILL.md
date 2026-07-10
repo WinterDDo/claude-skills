@@ -255,5 +255,6 @@ Use `#Preview` macro with inline mock data for fast iteration:
 
 ## References
 
-See skill: `swift-actor-persistence` for actor-based persistence patterns.
-See skill: `swift-protocol-di-testing` for protocol-based DI and testing with Swift Testing.
+For actor-based persistence and protocol-based DI/testing (Swift Testing), apply the
+`@Observable` + actor and protocol-injection patterns described above; these are not
+covered by separate installed skills.
