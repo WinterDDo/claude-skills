@@ -160,9 +160,10 @@ protection is intentional, not redundant), the three `gstack-plan-*` reviews (de
 
 ## 6. Suggested fix order
 
-1. ~~**Fix the concrete bugs** (§1b/1c)~~ — ✅ done (wave 2); one straggler: `gstack-plan-design-review` → `/design-review` still dangling.
+1. ~~**Fix the concrete bugs** (§1b/1c)~~ — ✅ done (wave 2). Note: `gstack-plan-design-review` → `/design-review` is NOT a bug — it resolves when the full gstack toolkit is installed, same as that family's `bin/` deps.
 2. ~~**Retire `using-superpowers`** (§2)~~ — ✅ done (wave 2, tombstoned).
 3. ~~**Add mutual NOT-for cross-refs** to the duplicate pairs (§3)~~ — ✅ done (wave 3).
+   ~~**Content hygiene** (§4d)~~ — ✅ partly done (wave 4): `canvas-design` fabricated user-quote removed; `using-git-worktrees` author-specific paths genericized. (`socratic-knowledge-deconstruction`'s "Win" left intentionally — this is Win's personal library.)
 4. **Restore or self-contain the missing payloads** (§1a) — biggest remaining functional win; these skills are dead as shipped. Needs sourcing/rewriting real content — not a mechanical edit.
 5. **Decide name-vs-dir convention** (§4a) — NOT a blind sweep: `gstack-*`/`deerflow-*` bare names are intentional invocation aliases. Decide per-family whether to align `name`→dir or fix the cross-refs that cite dir names.
 6. **Rewrite the remaining weak descriptions** (§4b/4c) using `theme-factory` as the template.
