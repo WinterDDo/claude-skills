@@ -19,6 +19,12 @@ each reading the full skill body plus a shared trigger catalog. Global overlap s
 | 🟡 Description fix (weak/bad triggers, name≠dir) | ~35 | Won't self-select reliably; cross-refs won't resolve |
 | ✅ Clean (keep as-is / positive benchmark) | ~16 | Well-scoped, accurate cross-refs |
 
+### Fix progress on this branch (`claude/agent-loops-patterns-6tisu9`)
+- **Wave 1** — hard conflicts: `deerflow-frontend-design` name collision resolved; `taste-skill-v1` archived; `taste-skill` dangling Block Library note + 5 hallucinated MDN URLs fixed.
+- **Wave 2** — concrete bugs: `pdf` REFERENCE/FORMS casing; `brainstorming` path prefix; `swiftui-patterns` dead refs; `superpowers:` prefixes stripped in `systematic-debugging`/`writing-skills`; `using-superpowers` reduced to an inert tombstone.
+- **Wave 3** — reciprocal NOT-for cross-refs added to the duplicate pairs in §3 (DESIGN.md overwrite, debugging, skill-authoring, parallel-agents + diagram mislabel, pptx/xlsx vs deerflow, imagegen vs image-to-code, brainstorming vs office-hours, discover vs plain, deep-research boundary). All frontmatter re-validated as parseable YAML.
+- **Still open** (need your call): §1a missing payloads (restore or self-contain), §4a name↔dir convention (gstack/deerflow bare names are intentional — don't blanket-rename), §4c remaining weak descriptions.
+
 The three highest-leverage problems, in order:
 1. **Missing payload** — ~10 skills ship only `SKILL.md`; their `scripts/`/`references/`/`templates/`/`core/`
    directories never made it into the repo. They install but cannot run.
@@ -154,11 +160,11 @@ protection is intentional, not redundant), the three `gstack-plan-*` reviews (de
 
 ## 6. Suggested fix order
 
-1. **Restore or self-contain the missing payloads** (§1a) — biggest functional win; these skills are dead as shipped.
-2. **Fix the concrete bugs** (§1b/1c): pdf casing, brainstorming path prefix, dead swift-*/superpowers:/design-review refs.
-3. **Delete `using-superpowers`** (§2).
-4. **Decide name-vs-dir convention** repo-wide (§4a) — one sweep, unblocks all cross-refs.
-5. **Add mutual NOT-for cross-refs** to the duplicate pairs (§3), starting with the DESIGN.md overwrite collision.
-6. **Rewrite the weak/bad descriptions** (§4b/4c) using `theme-factory` as the template.
+1. ~~**Fix the concrete bugs** (§1b/1c)~~ — ✅ done (wave 2); one straggler: `gstack-plan-design-review` → `/design-review` still dangling.
+2. ~~**Retire `using-superpowers`** (§2)~~ — ✅ done (wave 2, tombstoned).
+3. ~~**Add mutual NOT-for cross-refs** to the duplicate pairs (§3)~~ — ✅ done (wave 3).
+4. **Restore or self-contain the missing payloads** (§1a) — biggest remaining functional win; these skills are dead as shipped. Needs sourcing/rewriting real content — not a mechanical edit.
+5. **Decide name-vs-dir convention** (§4a) — NOT a blind sweep: `gstack-*`/`deerflow-*` bare names are intentional invocation aliases. Decide per-family whether to align `name`→dir or fix the cross-refs that cite dir names.
+6. **Rewrite the remaining weak descriptions** (§4b/4c) using `theme-factory` as the template.
 
-_This audit is a map, not a mutation — only the four ✅-marked items in §1d/§2/§3 were changed this pass._
+_Status: waves 1–3 applied on this branch (see the "Fix progress" box in §0). Items 4–6 above remain open and need your decisions, not just edits._
