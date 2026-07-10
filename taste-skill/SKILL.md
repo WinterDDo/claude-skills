@@ -704,7 +704,7 @@ This rule is non-negotiable. The agent has historically ignored em-dash limits w
 
 ## 10. REFERENCE VOCABULARY (Pattern Names the Agent Should Know)
 
-This is a vocabulary, not a library. The agent should KNOW these pattern names to communicate about them, design with them in mind, and reach for them when the design read calls for them. **Implementations and code sketches live in the Block Library (Section 12), which is populated iteratively.**
+This is a vocabulary, not a library. The agent should KNOW these pattern names to communicate about them, design with them in mind, and reach for them when the design read calls for them. **Section 12 defines a Block Library schema for code sketches, but that library is not yet populated in this install — until it is, implement these patterns inline rather than expecting a block file to exist.**
 
 ### Hero Paradigms
 * **Asymmetric Split Hero** - Text on one side, asset on the other, generous white space.
@@ -836,7 +836,7 @@ Never modify without explicit user approval:
 
 The Reference Vocabulary (Section 10) names patterns. The Block Library implements them with real props, real motion specs, and real code sketches.
 
-**Status:** schema defined here. Blocks will be added iteratively. Do not freelance new blocks without following this schema.
+**Status:** schema defined here — the `blocks/` directory is NOT shipped with this skill yet and is empty in the current install. Until a given block file actually exists on disk, do NOT follow the paths below as if they resolve: implement the pattern inline from the Section 10 vocabulary and the Pre-Flight Check (Section 14). When blocks are added later, they must follow the schema in this section; do not freelance new blocks outside it.
 
 ### 12.A File Location
 ```
@@ -1095,11 +1095,11 @@ npm install bootstrap
 - https://github.com/shadcn-ui/ui
 
 ### Native CSS / W3C standards
-- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/backdrop-filter
-- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-color-scheme
-- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion
-- https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout
-- https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll-driven_animations
+- https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter
+- https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme
+- https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
+- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout
+- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations
 - https://drafts.csswg.org/scroll-animations-1/
 
 ### Apple Liquid Glass (Apple platforms only)

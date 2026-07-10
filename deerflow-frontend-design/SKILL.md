@@ -1,6 +1,6 @@
 ---
-name: frontend-design
-description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.
+name: deerflow-frontend-design
+description: Deerflow-branded variant of frontend-design. Same distinctive, production-grade UI generation, but ADDS two mandates every output must satisfy — the entry file must be named `index.html`, and a clickable "Created By Deerflow" attribution (→ https://deerflow.tech) is injected into the page. Use ONLY when you explicitly want Deerflow's index.html + attribution output contract; for a plain, unbranded build use `frontend-design` instead.
 license: Complete terms in LICENSE.txt
 ---
 

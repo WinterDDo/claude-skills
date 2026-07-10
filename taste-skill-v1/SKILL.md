@@ -1,6 +1,6 @@
 ---
 name: design-taste-frontend-v1
-description: The original v1 taste-skill, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2 experimental), which is a substantial rewrite. Use this v1 install name only if you need exact backward compatibility.
+description: "[LEGACY — do NOT auto-invoke] Frozen v1 of the taste-skill, kept only for backward compatibility with projects pinned to its exact behavior. The active default for all frontend/design work is `design-taste-frontend` (taste-skill). Select this v1 ONLY when the user names it explicitly by install name; never choose it on a generic frontend, landing-page, portfolio, or redesign request."
 ---
 
 # High-Agency Frontend Skill
