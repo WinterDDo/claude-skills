@@ -1,6 +1,6 @@
 ---
 name: brainstorming
-description: "Mandatory first step before building anything new or changing behavior. Triggers: 'add feature', 'build X', 'create X', 'modify X', 'implement X', 'redesign', '做一个', '加功能', '改一下', '重构'. Explores intent, requirements, and design before code. NOT for: bug fixes (use systematic-debugging), pure research, or file operations."
+description: "Mandatory first step before building anything new or changing behavior. Triggers: 'add feature', 'build X', 'create X', 'modify X', 'implement X', 'redesign', '做一个', '加功能', '改一下', '重构'. Explores intent, requirements, and design before code. Use this to scope a feature you've decided to build; to validate whether an idea is worth building at all (YC-style forcing questions), use gstack-office-hours first. NOT for: bug fixes (use systematic-debugging), pure research, or file operations."
 ---
 
 # Brainstorming Ideas Into Designs

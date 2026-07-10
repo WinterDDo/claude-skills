@@ -1,6 +1,6 @@
 ---
 name: systematic-debugging
-description: "Investigate before fixing any bug, test failure, or unexpected behavior. Triggers: 'bug', 'error', 'broken', 'not working', 'crash', 'fails', 'unexpected', '报错', '出错', '崩溃', '不工作', '不正常'. Requires root cause analysis before proposing solutions. NOT for: feature requests or code review."
+description: "Investigate before fixing any bug, test failure, or unexpected behavior. Triggers: 'bug', 'error', 'broken', 'not working', 'crash', 'fails', 'unexpected', '报错', '出错', '崩溃', '不工作', '不正常'. Requires root cause analysis before proposing solutions. Equivalent to gstack-investigate in the gstack ecosystem — use one, not both. NOT for: feature requests or code review."
 ---
 
 # Systematic Debugging

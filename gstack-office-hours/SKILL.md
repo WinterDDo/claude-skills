@@ -9,6 +9,7 @@ description: |
   this", "office hours", or "is this worth building".
   Proactively suggest when the user describes a new product idea or is exploring
   whether something is worth building — before any code is written.
+  NOT for scoping a feature you've already decided to build — use brainstorming for that.
   Use before /plan-ceo-review or /plan-eng-review.
 allowed-tools:
   - Bash

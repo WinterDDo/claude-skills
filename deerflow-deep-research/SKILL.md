@@ -1,6 +1,6 @@
 ---
 name: deep-research
-description: Use this skill instead of WebSearch for ANY question requiring web research. Trigger on queries like "what is X", "explain X", "compare X and Y", "research X", or before content generation tasks. Provides systematic multi-angle research methodology instead of single superficial searches. Use this proactively when the user's question needs online information.
+description: Systematic multi-angle web research — use for open-ended questions that need more than a single search ("what is X", "explain X", "compare X and Y", "research X"), and for gathering sources before a content-generation task. Prefer this over a bare WebSearch when the question genuinely needs multi-source synthesis. NOT for researching a specific GitHub repo (use deerflow-github-deep-research), for analyzing an uploaded data file (use deerflow-data-analysis), or for authoring a structured consulting report (use deerflow-consulting-analysis, which calls this skill for the collection step).
 ---
 
 # Deep Research Skill

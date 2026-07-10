@@ -1,6 +1,6 @@
 ---
 name: subagent-driven-development
-description: "Execute independent modules of an implementation plan in parallel using subagents within this session. Triggers: plan has 3+ independent components that can be built simultaneously, 'build these modules in parallel', '并行开发这几个模块'. NOT for: tasks with shared state or cross-module dependencies (use executing-plans instead)."
+description: "Execute independent modules of an implementation plan in parallel using subagents within this session. Triggers: plan has 3+ independent components that can be built simultaneously, 'build these modules in parallel', '并行开发这几个模块'. NOT for: tasks with shared state or cross-module dependencies (use executing-plans instead), or general-purpose parallel fan-out not tied to executing a written implementation plan (use dispatching-parallel-agents)."
 ---
 
 # Subagent-Driven Development
@@ -27,11 +27,11 @@ digraph when_to_use {
     "Tasks mostly independent?" -> "Stay in this session?" [label="yes"];
     "Tasks mostly independent?" -> "Manual execution or brainstorm first" [label="no - tightly coupled"];
     "Stay in this session?" -> "subagent-driven-development" [label="yes"];
-    "Stay in this session?" -> "executing-plans" [label="no - parallel session"];
+    "Stay in this session?" -> "executing-plans" [label="no - sequential, step-by-step"];
 }
 ```
 
-**vs. Executing Plans (parallel session):**
+**vs. Executing Plans (sequential, step-by-step):**
 - Same session (no context switch)
 - Fresh subagent per task (no context pollution)
 - Two-stage review after each task: spec compliance first, then code quality

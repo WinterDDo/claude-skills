@@ -1,6 +1,6 @@
 ---
 name: dispatching-parallel-agents
-description: "Decompose tasks into independent subtasks and run them in parallel using agents. Triggers: (1) user gives multiple tasks at once, (2) brainstorming/planning reveals 3+ independent components, (3) task naturally has parallel parts (e.g. 'prepare meeting materials' = research + slides + talking points), (4) 'do these in parallel', '并行处理', '同时做'. Always consider parallelization after brainstorming or planning. NOT for: tasks where subtasks depend on each other's output."
+description: "Decompose tasks into independent subtasks and run them in parallel using agents. Triggers: (1) user gives multiple tasks at once, (2) brainstorming/planning reveals 3+ independent components, (3) task naturally has parallel parts (e.g. 'prepare meeting materials' = research + slides + talking points), (4) 'do these in parallel', '并行处理', '同时做'. Always consider parallelization after brainstorming or planning. NOT for: tasks where subtasks depend on each other's output, or executing a written implementation plan with spec/quality review gates (use subagent-driven-development for that)."
 ---
 
 # Dispatching Parallel Agents

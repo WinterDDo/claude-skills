@@ -1,6 +1,6 @@
 ---
 name: plain-output-not-polished
-description: "Apply when Claude is producing any substantive output: analysis, recommendations, reports, messages, code reviews, or written responses of any non-trivial length. Always-on for output quality. Specifically triggers when Claude is tempted to use elevated vocabulary, default to bulleted lists, add transitional flourishes, or pad conclusions with rhetorical accommodation. The principle: every form of polish on output is a potential cover for unfinished thinking."
+description: "Apply when Claude is producing any substantive output: analysis, recommendations, reports, messages, code reviews, or written responses of any non-trivial length. Always-on for output quality. Specifically triggers when Claude is tempted to use elevated vocabulary, default to bulleted lists, add transitional flourishes, or pad conclusions with rhetorical accommodation. The principle: every form of polish on output is a potential cover for unfinished thinking. Overlaps discover-not-persuade on refusing rhetorical accommodation — that skill governs the epistemic stance (don't soften the finding); this one governs the prose surface (don't decorate)."
 ---
 
 # Plain Output, Not Polished Output

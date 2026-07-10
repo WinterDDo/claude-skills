@@ -1,6 +1,6 @@
 ---
 name: writing-skills
-description: Use when creating new skills, editing existing skills, or verifying skills work before deployment
+description: "Author, edit, and verify Claude skills using a TDD / pressure-scenario method — write baseline failure scenarios first, then the skill, then confirm it changes behavior before deployment. Triggers: 'write a skill', 'create a skill', 'edit this skill', 'improve this skill', 'verify this skill', '写个skill', '改进skill'. Uses TDD/pressure-testing; for the quantitative eval-benchmark method use skill-creator instead — pick one approach per skill."
 ---
 
 # Writing Skills
