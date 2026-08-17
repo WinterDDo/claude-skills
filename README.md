@@ -1,6 +1,6 @@
 # Claude Skills — WinterDDo
 
-79 skills for Claude Code.
+80 skills for Claude Code.
 
 This repo is **private** — accept your collaborator invite and make sure Git is authenticated (`gh auth login`, a credential helper, or an SSH key), then:
 
@@ -24,6 +24,7 @@ Skills in this repo come from several places. Each retains its own license heade
 - `gstack-*`: from Garry Tan's gstack toolkit.
 - Anthropic standard skills (`brainstorming`, `writing-plans`, `docx`, `pdf`, `pptx`, `xlsx`, etc.): from Anthropic's published examples.
 - `taste-skill` and its 12 sibling design skills (`taste-skill-v1`, `gpt-tasteskill`, `brandkit`, `brutalist-skill`, `minimalist-skill`, `soft-skill`, `redesign-skill`, `stitch-skill`, `output-skill`, `image-to-code-skill`, `imagegen-frontend-web`, `imagegen-frontend-mobile`): from Taste Skill (github.com/Leonxlnx/taste-skill), MIT.
+- `i-dont-read-code`: from github.com/WinterDDo/i-dont-read-code, MIT. Skill copied from the repo's `plugins/i-dont-read-code/skills/` layout; the plugin's hooks/scripts are not bundled here.
 - Personal / MIXUE business skills and `distill`: original to this repo, MIT.
 
 If you redistribute, preserve each skill's original attribution.
